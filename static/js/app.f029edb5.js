@@ -61,9 +61,9 @@
                         }
                     }, [t("div", {
                         staticClass: "font-dancing-script animation-fade-in-up delay-05"
-                    }, [n._v(" Đức Toàn "), t("span", {
+                    }, [n._v(" Ngọc Độ "), t("span", {
                         staticClass: "material-symbols-outlined icon-heart"
-                    }, [n._v(" favorite ")]), n._v(" Như Ngọc ")]), t("div", {
+                    }, [n._v(" favorite ")]), n._v(" Ngọc Mai ")]), t("div", {
                         staticClass: "animation-fade-in-up delay-06"
                     }, [t("span", {
                         staticClass: "just-married"
@@ -310,14 +310,14 @@
                         }
                     }, [t("div", {
                         staticClass: "font-dancing-script text-end col-sm-5 m-0 p-0"
-                    }, [n._v("Đức Toàn")]), t("span", {
+                    }, [n._v("Ngọc Độ")]), t("span", {
                         staticClass: "col-sm-2 m-0 p-0 material-symbols-outlined icon-heart d-flex align-items-center justify-content-center",
                         staticStyle: {
                             "font-size": "30px"
                         }
                     }, [n._v(" favorite ")]), t("div", {
                         staticClass: "font-dancing-script text-start col-sm-5 m-0 p-0"
-                    }, [n._v("Như Ngọc")])])
+                    }, [n._v("Ngọc Mai")])])
                 }
                 ]
                     , M = function() {
@@ -574,7 +574,7 @@
                         staticClass: "middle"
                     }, [t("div", {
                         staticClass: "text"
-                    }, [n._v("Đức Toàn")])])
+                    }, [n._v("Ngọc Độ")])])
                 }
                     , function() {
                         var n = this
@@ -583,7 +583,7 @@
                             staticClass: "middle"
                         }, [t("div", {
                             staticClass: "text"
-                        }, [n._v("Như Ngọc")])])
+                        }, [n._v("Ngọc Mai")])])
                     }
                 ]
                     , nn = {
@@ -815,7 +815,7 @@
                             }, {
                                 id: 90,
                                 name: "Anh zai Pika Long",
-                                wish: "Không khí mùa này thấy vui ghê,\r\nThay phiên đám cưới thấy mà mê.\r\nMai mốt vào mùa mưa khỏi lạnh,\r\nSang năm con cháu có đầy đàn.\r\n\r\nĐếm ngược tuần nữa tới ngày vui,\r\nNhư Ngọc - Đắc Toàn nên đôi, kết vợ chồng.\r\nChúc cho lửa mặn hương nồng,\r\nRăng long đầu bạc vẫn còn có nhau.\r\n\r\nNgày xưa hai chữ làm quen,\r\nQuen rồi bốn chữ chúng mình yêu nhau ❤️\r\nVà rồi hai chữ trọn đời,\r\nBây giờ bốn chữ suốt đời bên nhau 💙\r\n\r\nP/s: Thật hạnh phúc nhé em zai !!! Happy Wedding 💖"
+                                wish: "Không khí mùa này thấy vui ghê,\r\nThay phiên đám cưới thấy mà mê.\r\nMai mốt vào mùa mưa khỏi lạnh,\r\nSang năm con cháu có đầy đàn.\r\n\r\nĐếm ngược tuần nữa tới ngày vui,\r\nNgọc Mai - Đắc Toàn nên đôi, kết vợ chồng.\r\nChúc cho lửa mặn hương nồng,\r\nRăng long đầu bạc vẫn còn có nhau.\r\n\r\nNgày xưa hai chữ làm quen,\r\nQuen rồi bốn chữ chúng mình yêu nhau ❤️\r\nVà rồi hai chữ trọn đời,\r\nBây giờ bốn chữ suốt đời bên nhau 💙\r\n\r\nP/s: Thật hạnh phúc nhé em zai !!! Happy Wedding 💖"
                             }, {
                                 id: 89,
                                 name: "VAN CAO D9",
@@ -1001,7 +1001,7 @@
                     }, [t("money-info-box", {
                         attrs: {
                             "info-banks": n.boy,
-                            name: "Trần Đức Toàn",
+                            name: "Trần Ngọc Độ",
                             gender: "boy"
                         }
                     }, [n._v(" Mừng cưới chú rể ")])], 1), t("div", {
@@ -1009,7 +1009,7 @@
                     }, [t("money-info-box", {
                         attrs: {
                             "info-banks": n.girl,
-                            name: "Nguyễn Như Ngọc",
+                            name: "Nguyễn Ngọc Mai",
                             gender: "girl"
                         }
                     }, [n._v(" Mừng cưới cô dâu ")])], 1)])]), t("div", {
