@@ -1009,7 +1009,7 @@
                     }, [t("money-info-box", {
                         attrs: {
                             "info-banks": n.girl,
-                            name: "Nguyễn Ngọc Mai",
+                            name: "Trương Thị Ngọc Mai",
                             gender: "girl"
                         }
                     }, [n._v(" Mừng cưới cô dâu ")])], 1)])]), t("div", {
