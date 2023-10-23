@@ -397,7 +397,7 @@
                         staticClass: "calendar-detail-container"
                     }, [t("div", {
                         staticClass: "calendar-timer mb-2"
-                    }, [n._v(" Tháng 6 / 2023 ")]), t("div", {
+                    }, [n._v(" Tháng 11 / 2023 ")]), t("div", {
                         staticClass: "date-of-month"
                     }, [n._m(0), t("div", {
                         staticClass: "date-table border-bottom"
