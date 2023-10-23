@@ -219,9 +219,9 @@
                         }
                     }, [t("div", {
                         staticClass: "font-dancing-script animation-fade-in-up delay-05 d-flex justify-content-center align-items-center text-secondary"
-                    }, [n._v(" T "), t("span", {
+                    }, [n._v(" Đ "), t("span", {
                         staticClass: "material-symbols-outlined icon-heart"
-                    }, [n._v(" favorite ")]), n._v(" N ")])])])
+                    }, [n._v(" favorite ")]), n._v(" M ")])])])
                 }
                 ]
                     , T = {
@@ -1450,9 +1450,9 @@
                         }
                     }, [t("div", {
                         staticClass: "font-dancing-script d-flex justify-content-center align-items-center text-secondary"
-                    }, [n._v(" T "), t("span", {
+                    }, [n._v(" Đ "), t("span", {
                         staticClass: "material-symbols-outlined icon-heart"
-                    }, [n._v(" favorite ")]), n._v(" N ")])])
+                    }, [n._v(" favorite ")]), n._v(" M ")])])
                 }
                 ]
                     , Ct = i(306)
