@@ -1,0 +1,74 @@
+<template>
+  <div
+    class="bg-white overflow-hidden flex flex-col items-start justify-start relative gap-[8px] text-center text-5xl text-gray-300 font-inter"
+  >
+    <div class="relative bg-silver w-full h-[872px] z-[0]">
+      <img
+        class="absolute h-[122.42%] w-full top-[0%] right-[0%] bottom-[-22.42%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
+        alt=""
+        src="/image-3@2x.png"
+      />
+      <img
+        class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
+        alt=""
+        src="/image-4@2x.png"
+      />
+    </div>
+    <div
+      class="my-0 mx-[!important] absolute top-[798px] left-[120px] w-[1200px] z-[1]"
+    />
+    <div
+      class="my-0 mx-[!important] absolute top-[268px] left-[calc(50%_-_412px)] flex flex-col items-center justify-start gap-[16px] z-[2]"
+    >
+      <div
+        class="relative tracking-[0.02em] leading-[150%] uppercase [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
+        data-animate-on-scroll
+      >
+        My Love For You Is a Journey
+      </div>
+      <div
+        class="relative text-85xl leading-[120%] uppercase font-butler text-white [&.animate]:animate-[1.5s_ease_1s_1_normal_forwards_slide-in-top] opacity-[0]"
+        data-animate-on-scroll
+      >
+        We're Married
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  import { defineComponent } from "vue";
+
+  export default defineComponent({
+    name: "HeroBanner",
+    data() {
+      return { observer: null };
+    },
+
+    mounted() {
+      const scrollAnimElements = document.querySelectorAll(
+        "[data-animate-on-scroll]"
+      );
+      this.observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              this.observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        this.observer.observe(scrollAnimElements[i]);
+      }
+    },
+    beforeUnmount() {
+      this.observer.disconnect();
+    },
+  });
+</script>
