@@ -9,9 +9,9 @@
         class="w-[994px] h-[627px] flex flex-row items-center justify-between text-sm text-sienna"
       >
         <CardTimeline1
-          imageDescription="/image1@2x.png"
+          imageDescription="/story_1.JPG"
           dateDescription="14 - 2 - 2021"
-          playfulGazeImageUrl="     Ánh mắt đùa nghịch của anh sĩ quan trẻ đã va phải bóng lưng lạc lõng của cô bé sinh viên năm cuối tại một nơi được gọi là địa bàn kinh doanh của gia đình nhà anh mà cụ thể là em họ anh."
+          playfulGazeImageUrl="Ánh mắt đùa nghịch của anh sĩ quan trẻ đã va phải bóng lưng lạc lõng của cô bé sinh viên năm cuối tại một nơi được gọi là địa bàn kinh doanh của gia đình nhà anh mà cụ thể là em họ anh."
           teaDescription="    Với một cốc trà chanh nha đam ấm lòng người chiến sĩ do chính tay em anh pha anh đã nhận được lời từ chối nồng cháy từ em. Để rồi với con át chủ bài A Handsome Man một ánh nhìn - một nụ cười con tim cô sinh viên đã tan chảy tới rơi số điện thoại vào sim của anh."
         />
         <div
@@ -43,7 +43,7 @@
           />
         </div>
         <CardTimeline
-          image="/image2@2x.png"
+          image="/story_2.JPG"
           prop="20 - 02 - 2021"
           nhCaoLMtTayTnGiChuyn="   Đỉnh cao là một tay tán gái chuyên nghiệp anh thành công hạ gục và đưa hai con tim xích vào một mốc đánh dấu khởi đầu của một mối nhân duyên."
         />
@@ -57,7 +57,7 @@
           <img
             class="relative w-[464px] h-[296px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/image3@2x.png"
+            src="/story_3.JPG"
             data-animate-on-scroll
           />
           <div
@@ -128,7 +128,7 @@
           <img
             class="relative w-[464px] h-[296px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
             alt=""
-            src="/image4@2x.png"
+            src="/story_4.JPG"
             data-animate-on-scroll
           />
           <div
@@ -165,7 +165,7 @@
       </div>
       <div class="w-[994px] flex flex-row items-center justify-between">
         <CardTimeline
-          image="/image5@2x.png"
+          image="/story_5.JPG"
           prop="13 - 08 - 2023"
           nhCaoLMtTayTnGiChuyn="   Một mối nhân duyên như đã được ấn định từ trước anh và em cuối cùng chúng ta cũng đã có thể chính thức được bước ra trước sự chứng kiến của gia đình ai bên và đi tới timeline của cuộc đời."
         />
@@ -198,7 +198,7 @@
           />
         </div>
         <CardTimeline1
-          imageDescription="/image6@2x.png"
+          imageDescription="/story_6.JPG"
           dateDescription="21 - 11 - 2023"
           playfulGazeImageUrl="    Cuối cùng hai bên gia đình đã thống nhất chọn ngày 21 tháng 11 năm 2023 (tức 09 tháng 10 năm Qúy Mão) là ngày tổ chức lễ ăn hỏi và thành hôn cho cặp vợ chồng trẻ."
           teaDescription="    Mời mọi người cùng chìm đắm vào khoảnh khắc yêu thương này nhé."

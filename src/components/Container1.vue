@@ -50,7 +50,7 @@
       <img
           class="absolute top-[0px] left-[0px] rounded-461xl w-[379px] h-[532px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-bottom] opacity-[0]"
           alt=""
-          src="/image@2x.png"
+          src="/countdown.JPG"
           data-animate-on-scroll
       />
     </div>
@@ -59,7 +59,7 @@
         data-animate-on-scroll
     >
       <img
-          class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+          class="app-logo absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/group.svg"
       />
