@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-whitesmoke [backdrop-filter:blur(20px)] w-full overflow-hidden flex flex-col items-center justify-center box-border text-left text-base text-gray-200 font-inter"
+    class="bg-whitesmoke [backdrop-filter:blur(20px)] w-full overflow-hidden flex flex-col items-center justify-center box-border text-left text-base text-gray-200 font-inter sticky top-0 z-30"
   >
     <div class="lg:block hidden w-full p-6">
       <div class="w-full flex flex-row items-center justify-center">
