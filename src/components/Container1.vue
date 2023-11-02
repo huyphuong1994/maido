@@ -1,17 +1,17 @@
 <template>
   <div
-      class="w-[1200px] flex flex-row items-center justify-between relative text-left text-53xl text-darkslategray-200 font-butler"
+      class="lg:w-[1200px] lg:flex flex-row items-center justify-between relative text-left text-53xl text-darkslategray-200 font-butler"
       data-scroll-to="container1"
   >
-    <div class="flex flex-col items-start justify-start gap-[32px] z-[0]">
-      <div class="flex flex-col items-start justify-start">
-        <div class="self-stretch relative leading-[120%]">Ngọc Độ & Ngọc Mai</div>
+    <div class="flex flex-col items-start justify-start gap-[24px] z-[0]">
+      <div class="flex flex-col items-start justify-center text-center w-full">
+        <div class="self-stretch relative text-[42px] md:text-[56px] lg:text-[72px]">Ngọc Độ & Ngọc Mai</div>
       </div>
       <div
           class="self-stretch flex flex-row items-center justify-start gap-[56px] text-center text-sienna"
       >
         <div class="flex flex-col items-center justify-start">
-          <div class="relative leading-[120%] uppercase inline-block w-20">
+          <div class="relative uppercase inline-block w-20 text-[42px] md:text-[56px] lg:text-[72px]">
             {{ days }}
           </div>
           <div
@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-start">
-          <div class="relative leading-[120%] uppercase">{{hours}}</div>
+          <div class="relative uppercase text-[42px] md:text-[56px] lg:text-[72px]">{{hours}}</div>
           <div
               class="relative text-xl leading-[150%] uppercase font-inter text-dimgray"
           >
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-start">
-          <div class="relative leading-[120%] uppercase">{{minutes}}</div>
+          <div class="relative uppercase text-[42px] md:text-[56px] lg:text-[72px]">{{minutes}}</div>
           <div
               class="relative text-xl leading-[150%] uppercase font-inter text-dimgray"
           >
@@ -37,37 +37,39 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-start">
-          <div class="relative leading-[120%] uppercase">{{seconds}}</div>
+          <div class="relative uppercase text-[42px] md:text-[56px] lg:text-[72px]">{{seconds}}</div>
           <div
-              class="relative text-xl leading-[150%] uppercase font-inter text-dimgray"
+              class="relative text-xl uppercase font-inter text-dimgray"
           >
             Secs
           </div>
         </div>
       </div>
     </div>
-    <div class="relative w-[379px] h-[532px] z-[1]">
-      <img
-          class="absolute top-[0px] left-[0px] rounded-461xl w-[379px] h-[532px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-bottom] opacity-[0]"
-          alt=""
-          src="/countdown.jpg"
+    <div class="mt-5 flex justify-center">
+      <div class="relative w-[379px] h-[532px] z-[1]">
+        <img
+            class="absolute top-[0px] left-[0px] rounded-461xl w-[379px] h-[532px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-bottom] opacity-[0]"
+            alt=""
+            src="/countdown.jpg"
+            data-animate-on-scroll
+        />
+      </div>
+      <div
+          class="absolute my-0 mx-[!important] bottom-[-50px] lg:bottom-[24px] lg:left-[719px] w-40 h-40 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] z-[2]"
           data-animate-on-scroll
-      />
-    </div>
-    <div
-        class="absolute my-0 mx-[!important] bottom-[24px] left-[719px] w-40 h-40 [&.animate]:animate-[1s_ease_0s_1_normal_forwards_scale-up] opacity-[1] z-[2]"
-        data-animate-on-scroll
-    >
-      <img
-          class="app-logo absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/group.svg"
-      />
-      <img
-          class="absolute h-[30.38%] w-[30.38%] top-[34.94%] right-[34.69%] bottom-[34.69%] left-[34.94%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/arrow-downward-fill0-wght400-grad0-opsz24-1.svg"
-      />
+      >
+        <img
+            class="app-logo absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/group.svg"
+        />
+        <img
+            class="absolute h-[30.38%] w-[30.38%] top-[34.94%] right-[34.69%] bottom-[34.69%] left-[34.94%] max-w-full overflow-hidden max-h-full"
+            alt=""
+            src="/arrow-downward-fill0-wght400-grad0-opsz24-1.svg"
+        />
+      </div>
     </div>
   </div>
 </template>

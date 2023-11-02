@@ -1,10 +1,10 @@
 <template>
   <div
-    class="w-[1200px] flex flex-col items-center justify-start gap-[48px] text-left text-53xl text-darkslategray-200 font-butler"
+    class="lg:w-[1200px] flex flex-col items-center justify-start gap-[48px] text-left text-53xl text-darkslategray-200 font-butler"
     data-scroll-to="container"
   >
-    <div class="relative leading-[120%]">Our love story</div>
-    <div class="flex flex-col items-start justify-start text-lg font-inter">
+    <div class="relative leading-[120%] text-[42px] md:text-[56px] lg:text-[72px]">Our love story</div>
+    <div class="hidden lg:flex flex-col items-start justify-start text-lg font-inter">
       <div
         class="w-[994px] h-[627px] flex flex-row items-center justify-between text-sm text-sienna"
       >
@@ -204,6 +204,9 @@
           teaDescription="    Mời mọi người cùng chìm đắm vào khoảnh khắc yêu thương này nhé."
         />
       </div>
+    </div>
+    <div>
+
     </div>
   </div>
 </template>

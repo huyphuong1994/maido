@@ -4,7 +4,7 @@
   >
     <div class="lg:block hidden w-full p-6">
       <div class="w-full flex flex-row items-center justify-center">
-        <div class="w-[1200px] flex flex-row items-center justify-between px-5">
+        <div class="w-[75%] flex flex-row items-center justify-between px-5">
           <div class="flex flex-row items-start justify-start">
             <img class="relative w-[60px] h-9" alt="" src="/logo.svg" />
           </div>

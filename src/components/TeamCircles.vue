@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative rounded-xl bg-white w-[1200px] h-[662px] overflow-hidden flex flex-col items-center justify-start pt-8 px-6 pb-16 box-border max-w-full max-h-full text-center text-[32px] text-[rgb(150,106,61]) font-inter"
+    class="relative rounded-xl bg-white lg:w-[1200px] h-[662px] overflow-hidden flex flex-col items-center justify-start pt-8 px-6 pb-16 box-border max-w-full max-h-full text-center text-[32px] text-[rgb(150,106,61]) font-inter"
   >
     <div
       class="w-[1169px] h-[658px] flex flex-col items-center justify-start gap-[64px]"

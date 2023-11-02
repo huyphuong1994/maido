@@ -17,7 +17,7 @@
       <div
           class="my-0 mx-[!important] absolute top-[154px] left-[120px] flex flex-col items-start justify-start gap-[96px] z-[1]"
       >
-        <div class="relative leading-[120%]">Time and place</div>
+        <div class="relative leading-[120%] text-[42px] md:text-[56px] lg:text-[72px]">Time and place</div>
         <div
             class="self-stretch flex flex-col items-start justify-start gap-[48px] text-5xl font-inter"
         >
@@ -25,10 +25,10 @@
               class="self-stretch flex flex-col items-start justify-start gap-[16px]"
           >
             <div class="self-stretch relative leading-[150%]">
-              <p class="m-0">Lễ Ăn Hỏi: Thứ 3, 21-11-2023</p>
-              <p class="m-0">09:30 AM</p>
+              <p class="m-0 text-[16px] lg:text-[24px]">Lễ Ăn Hỏi: Thứ 3, 21-11-2023</p>
+              <p class="m-0 text-[16px] lg:text-[24px]">09:30 AM</p>
             </div>
-            <div class="self-stretch relative leading-[150%]">
+            <div class="self-stretch relative leading-[150%] text-[16px] lg:text-[24px]">
               Số 25, Đường Hoàng Hoa Thám, Phường Thống Nhất, TP.Hòa Bình, T.Hòa Bình
             </div>
             <div
@@ -43,10 +43,10 @@
               class="self-stretch flex flex-col items-start justify-start gap-[16px]"
           >
             <div class="self-stretch relative leading-[150%]">
-              <p class="m-0">Lễ Thành Hôn: Thứ 3, 21-11-2023</p>
-              <p class="m-0">16:00 PM – 17:30 PM</p>
+              <p class="m-0 text-[16px] lg:text-[24px]">Lễ Thành Hôn: Thứ 3, 21-11-2023</p>
+              <p class="m-0 text-[16px] lg:text-[24px]">16:00 PM – 17:30 PM</p>
             </div>
-            <div class="self-stretch relative leading-[150%]">
+            <div class="self-stretch relative leading-[150%] text-[16px] lg:text-[24px]">
               Số 6, Đường Hoàng Diệu, Phường Phương Lâm, TP.Hòa Bình, T.Hòa Bình
             </div>
           </div>

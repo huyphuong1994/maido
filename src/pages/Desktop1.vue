@@ -1,8 +1,8 @@
 <template>
   <div
-    class="relative bg-whitesmoke h-[9254px] overflow-hidden text-left text-[48px] text-black font-dancing-script"
+    class="relative bg-whitesmoke h-full text-left text-[48px] text-black font-dancing-script"
   >
-    <div class="absolute top-[0px] h-[9954px] flex flex-col w-screen">
+    <div class="absolute top-[0px] flex flex-col w-screen">
       <Navbar />
       <HeroBanner />
       <div
@@ -14,16 +14,16 @@
       <SectionAlbum />
 <!--      <Section1 />-->
       <div
-        class="overflow-x-auto flex flex-col items-center justify-start py-40 px-0 box-border"
+        class="lg:flex lg:flex-col items-center justify-start px-0 box-border"
       >
         <div class="flex flex-row items-center justify-between gap-10">
           <img
-            class="relative w-[800px] h-[734px] object-cover"
+            class="relative w-full lg:w-[700px] lg:h-[734px] object-cover"
             alt=""
             src="/thank_you.png"
           />
-          <div class="relative w-[675px] h-[532px]">
-            <div class="absolute top-[237px] left-[279px] leading-[120%] text-[72px]">
+          <div class="hidden lg:block relative lg:w-[565px] lg:h-[532px]">
+            <div class="absolute top-[237px] left-[220px] leading-[120%] text-[72px]">
               Thank you!
             </div>
           </div>

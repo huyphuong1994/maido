@@ -3,7 +3,7 @@
       class="bg-linen w-full overflow-hidden flex flex-col items-center justify-center py-[156px] px-[120px] box-border text-left text-lg text-darkslategray-200 font-inter"
       data-scroll-to="wishesContainer"
   >
-    <div class="w-[1200px] flex flex-col items-center justify-center">
+    <div class="lg:w-[1200px] flex flex-col items-center justify-center">
       <div class="w-[886px] flex flex-col items-start justify-start gap-[32px]">
         <div class="flex flex-row items-center justify-start gap-[24px]">
           <div class="relative leading-[150%]">(03/03)</div>
