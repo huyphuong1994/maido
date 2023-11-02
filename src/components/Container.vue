@@ -9,7 +9,7 @@
         class="w-[994px] h-[627px] flex flex-row items-center justify-between text-sm text-sienna"
       >
         <CardTimeline1
-          imageDescription="/story_1.JPG"
+          imageDescription="/story_1.jpg"
           dateDescription="14 - 2 - 2021"
           playfulGazeImageUrl="Ánh mắt đùa nghịch của anh sĩ quan trẻ đã va phải bóng lưng lạc lõng của cô bé sinh viên năm cuối tại một nơi được gọi là địa bàn kinh doanh của gia đình nhà anh mà cụ thể là em họ anh."
           teaDescription="    Với một cốc trà chanh nha đam ấm lòng người chiến sĩ do chính tay em anh pha anh đã nhận được lời từ chối nồng cháy từ em. Để rồi với con át chủ bài A Handsome Man một ánh nhìn - một nụ cười con tim cô sinh viên đã tan chảy tới rơi số điện thoại vào sim của anh."
@@ -43,7 +43,7 @@
           />
         </div>
         <CardTimeline
-          image="/story_2.JPG"
+          image="/story_2.jpg"
           prop="20 - 02 - 2021"
           nhCaoLMtTayTnGiChuyn="   Đỉnh cao là một tay tán gái chuyên nghiệp anh thành công hạ gục và đưa hai con tim xích vào một mốc đánh dấu khởi đầu của một mối nhân duyên."
         />
