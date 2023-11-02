@@ -50,7 +50,7 @@
       <img
           class="absolute top-[0px] left-[0px] rounded-461xl w-[379px] h-[532px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-bottom] opacity-[0]"
           alt=""
-          src="/countdown.JPG"
+          src="/countdown.jpg"
           data-animate-on-scroll
       />
     </div>

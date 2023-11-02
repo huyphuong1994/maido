@@ -57,7 +57,7 @@
           <img
             class="relative w-[464px] h-[296px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/story_3.JPG"
+            src="/story_3.jpg"
             data-animate-on-scroll
           />
           <div
@@ -128,7 +128,7 @@
           <img
             class="relative w-[464px] h-[296px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
             alt=""
-            src="/story_4.JPG"
+            src="/story_4.jpg"
             data-animate-on-scroll
           />
           <div

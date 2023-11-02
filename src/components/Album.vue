@@ -44,37 +44,37 @@
         <img
             class="relative w-[378px] h-[447px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/album_1.JPG"
+            src="/album_1.jpg"
             data-animate-on-scroll
         />
         <img
             class="relative w-[379px] h-[447px] object-cover [&.animate]:animate-[1s_ease_0.4s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/album_2.JPG"
+            src="/album_2.jpg"
             data-animate-on-scroll
         />
         <img
             class="relative w-[379px] h-[447px] object-cover [&.animate]:animate-[1s_ease_0.8s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/album_3.JPG"
+            src="/album_3.jpg"
             data-animate-on-scroll
         />
         <img
             class="relative w-[379px] h-[447px] object-cover [&.animate]:animate-[1s_ease_1.2s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/album_4.JPG"
+            src="/album_4.jpg"
             data-animate-on-scroll
         />
         <img
             class="relative w-[378px] h-[447px] object-cover [&.animate]:animate-[1s_ease_1.6s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/album_5.JPG"
+            src="/album_5.jpg"
             data-animate-on-scroll
         />
         <img
             class="relative w-[379px] h-[447px] object-cover [&.animate]:animate-[1s_ease_2s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
-            src="/album_6.JPG"
+            src="/album_6.jpg"
             data-animate-on-scroll
         />
       </div>
