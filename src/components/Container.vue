@@ -165,7 +165,7 @@
       </div>
       <div class="w-[994px] flex flex-row items-center justify-between">
         <CardTimeline
-          image="/story_5.JPG"
+          image="/story_5.jpg"
           prop="13 - 08 - 2023"
           nhCaoLMtTayTnGiChuyn="   Một mối nhân duyên như đã được ấn định từ trước anh và em cuối cùng chúng ta cũng đã có thể chính thức được bước ra trước sự chứng kiến của gia đình ai bên và đi tới timeline của cuộc đời."
         />
@@ -198,7 +198,7 @@
           />
         </div>
         <CardTimeline1
-          imageDescription="/story_6.JPG"
+          imageDescription="/story_6.jpg"
           dateDescription="21 - 11 - 2023"
           playfulGazeImageUrl="    Cuối cùng hai bên gia đình đã thống nhất chọn ngày 21 tháng 11 năm 2023 (tức 09 tháng 10 năm Qúy Mão) là ngày tổ chức lễ ăn hỏi và thành hôn cho cặp vợ chồng trẻ."
           teaDescription="    Mời mọi người cùng chìm đắm vào khoảnh khắc yêu thương này nhé."
