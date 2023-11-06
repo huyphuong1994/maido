@@ -4,6 +4,7 @@ import App from "./App.vue";
 
 import Desktop1 from "./pages/Desktop1.vue";
 import "./global.css";
+import 'animate.css';
 
 const routes = [
   {

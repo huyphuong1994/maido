@@ -73,7 +73,7 @@
   </div>
   <div v-if="isBoxGiftOpen">
     <PortalPopup
-      overlayColor="rgba(113, 113, 113, 0.3)"
+      overlayColor="rgba(113, 113, 113, 0.8)"
       placement="Centered"
       :relativeLayerRef="$refs[navbarLinkContainer5Ref]"
       :onOutsideClick="closeBoxGift"

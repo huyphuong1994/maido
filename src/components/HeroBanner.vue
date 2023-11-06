@@ -6,12 +6,7 @@
       <img
         class="absolute h-[122.42%] w-full top-[0%] right-[0%] bottom-[-22.42%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
-        src="/image-3@2x.png"
-      />
-      <img
-        class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
-        alt=""
-        src="/image-4@2x.png"
+        src="/image-3@2x.jpg"
       />
     </div>
     <div
