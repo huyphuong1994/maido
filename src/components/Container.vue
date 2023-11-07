@@ -1,231 +1,362 @@
 <template>
   <div
-    class="lg:w-[1200px] flex flex-col items-center justify-start gap-[48px] text-left text-53xl text-darkslategray-200 font-butler"
-    data-scroll-to="container"
+      data-scroll-to="container"
+      class="relative w-full overflow-x-auto flex flex-col items-center justify-start pb-40 px-0 box-border text-left text-[72px] text-darkslategray-200 font-butler"
   >
-    <div class="relative leading-[120%] text-[42px] md:text-[56px] lg:text-[72px]">Our love story</div>
-    <div class="hidden lg:flex flex-col items-start justify-start text-lg font-inter">
+    <div
+        class="w-full flex flex-col items-center justify-start gap-[48px] max-w-[1200px] pl-12 pr-12 lg:pl-0 lg:pr-0 box-border"
+    >
+      <div class="relative leading-[120%] text-[46px] lg:text-[56px]">Our love story</div>
       <div
-        class="w-[994px] h-[627px] flex flex-row items-center justify-between text-sm text-sienna"
-      >
-        <CardTimeline1
-          imageDescription="/story_1.jpg"
-          dateDescription="14 - 2 - 2021"
-          playfulGazeImageUrl="Ánh mắt đùa nghịch của anh sĩ quan trẻ đã va phải bóng lưng lạc lõng của cô bé sinh viên năm cuối tại một nơi được gọi là địa bàn kinh doanh của gia đình nhà anh mà cụ thể là em họ anh."
-          teaDescription="    Với một cốc trà chanh nha đam ấm lòng người chiến sĩ do chính tay em anh pha anh đã nhận được lời từ chối nồng cháy từ em. Để rồi với con át chủ bài A Handsome Man một ánh nhìn - một nụ cười con tim cô sinh viên đã tan chảy tới rơi số điện thoại vào sim của anh."
-        />
-        <div
-          class="relative bg-lightgray w-0.5 h-[626px] overflow-hidden shrink-0"
-        >
-          <div
-            class="absolute top-[calc(50%_-_5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
-          />
-        </div>
-        <div
-          class="relative text-lg tracking-[0.02em] leading-[150%] uppercase text-darkslategray-200 inline-block w-[464px] shrink-0"
-        >
-          KHỞI NGUỒN CỦA ĐỊNH MỆNH
-        </div>
-      </div>
-      <div
-        class="w-[994px] flex flex-row items-center justify-between text-right"
+          class="w-full flex flex-col items-start justify-start pt-6 px-0 pb-0 box-border max-w-[994px] text-sm text-sienna font-text-md-semibold"
       >
         <div
-          class="relative tracking-[0.02em] leading-[150%] uppercase inline-block w-[464px] shrink-0"
-        >
-          tỎ tÌNH
-        </div>
-        <div
-          class="relative bg-lightgray w-0.5 h-[560px] overflow-hidden shrink-0"
+            class="self-stretch flex flex-row items-center justify-center gap-[32px]"
         >
           <div
-            class="absolute top-[calc(50%_-_5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
-          />
-        </div>
-        <CardTimeline
-          image="/story_2.jpg"
-          prop="20 - 02 - 2021"
-          nhCaoLMtTayTnGiChuyn="   Đỉnh cao là một tay tán gái chuyên nghiệp anh thành công hạ gục và đưa hai con tim xích vào một mốc đánh dấu khởi đầu của một mối nhân duyên."
-        />
-      </div>
-      <div
-        class="w-[994px] flex flex-row items-center justify-between text-sm text-sienna"
-      >
-        <div
-          class="w-[464px] flex flex-col items-start justify-start gap-[32px]"
-        >
-          <img
-            class="relative w-[464px] h-[296px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
-            alt=""
-            src="/story_3.jpg"
-            data-animate-on-scroll
-          />
-          <div
-            class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+              class="self-stretch bg-lightgray w-0.5 overflow-hidden shrink-0 lg:hidden flex-row items-center justify-center py-[315px] px-0 box-border flex"
           >
-            <div class="self-stretch flex flex-col items-start justify-start">
+            <div class="relative bg-darkslategray-100 w-0.5 h-4"/>
+          </div>
+          <div
+              class="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-9 gap-[32px] md:items-end md:justify-start [&.animate]:animate-[0.5s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
+              data-animate-on-scroll
+          >
+            <img
+                class="self-stretch relative max-w-full overflow-hidden h-[296px] shrink-0 object-cover"
+                alt=""
+                src="/story_1.jpg"
+            />
+            <div
+                class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+            >
+              <div class="self-stretch flex flex-col items-start justify-start">
+                <div
+                    class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                >
+                  14 - 2 - 2021
+                </div>
+              </div>
               <div
-                class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                  class="self-stretch relative leading-[150%] text-darkslategray-200 text-justify lg:text-lg text-sm"
               >
-                mỘT NĂM TÁM THÁNG
+                <p class="[margin-block-start:0] [margin-block-end:16px]">
+                  Ánh mắt đùa nghịch của anh sĩ quan trẻ đã va phải bóng lưng
+                  lạc lõng của cô bé sinh viên năm cuối tại một nơi được gọi là
+                  địa bàn kinh doanh của gia đình nhà anh mà cụ thể là em họ
+                  anh.
+                </p>
+                <p class="m-0">
+                  Với một cốc trà chanh nha đam ấm lòng người chiến sĩ do chính
+                  tay em anh pha anh đã nhận được lời từ chối nồng cháy từ em.
+                  Để rồi với con át chủ bài A Handsome Man một ánh nhìn - một nụ
+                  cười con tim cô sinh viên đã tan chảy tới rơi số điện thoại
+                  vào sim của anh.
+                </p>
               </div>
             </div>
+          </div>
+          <div
+              class="self-stretch relative bg-lightgray w-0.5 overflow-hidden shrink-0 hidden lg:inline-block"
+          >
             <div
-              class="self-stretch relative text-lg leading-[150%] text-darkslategray-200 whitespace-pre-wrap text-justify"
+                class="absolute top-[calc(50%_-_4.5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
+            />
+          </div>
+          <div
+              class="relative text-lg tracking-[0.02em] leading-[150%] uppercase text-darkslategray-200 w-[464px] shrink-0 hidden lg:inline-block"
+          >
+            KHỞI NGUỒN CỦA ĐỊNH MỆNH
+          </div>
+        </div>
+        <div
+            class="self-stretch flex flex-row items-center justify-center gap-[32px] text-right text-lg text-darkslategray-200 md:items-center md:justify-center"
+        >
+          <div
+              class="relative tracking-[0.02em] leading-[150%] uppercase w-[464px] shrink-0 hidden lg:inline-block"
+          >
+            TỎ TÌNH
+          </div>
+          <div
+              class="self-stretch bg-lightgray w-0.5 overflow-hidden shrink-0 flex flex-row items-center justify-center"
+          >
+            <div class="relative bg-darkslategray-100 w-0.5 h-4"/>
+          </div>
+          <div
+              class="flex-1 flex flex-col items-center justify-center [&.animate]:animate-[0.5s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] text-left text-sm text-sienna"
+              data-animate-on-scroll
+          >
+            <div
+                class="self-stretch flex flex-col items-center justify-center py-9 px-0 gap-[32px]"
             >
-              <p class="m-0">
-                Vì sao anh chọn em! Sắc đẹp là một điểm quan trọng khi ta chọn
-                yêu ai và kinh tế là yếu tố để ta lựa lấy ai. Nhưng với anh nó
-                không phải sự hào nhoáng đến từ bên ngoài mà xuất phát từ tính
-                cách sự cần mẫn, kiên trì. Là những hành động quan tâm yêu
-                thương chăm lo gia đình. Đấy mới là yếu tố để xây dựng một gia
-                đình hạnh phúc.
-              </p>
-              <p class="m-0">
-                <span> </span>
-                <i> Dù ai chê này chê kia</i>
-              </p>
-              <p class="m-0">
-                <i> Nhưng lòng này vững bên mình EM thôi</i>
-              </p>
-              <p class="m-0">
-                Và niềm tin đó đã đưa ta tới ngày quyết định dưới đây.
-              </p>
+              <img
+                  class="self-stretch relative max-w-full overflow-hidden h-[296px] shrink-0 object-cover"
+                  alt=""
+                  src="/story_2.jpg"
+              />
+              <div
+                  class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+              >
+                <div
+                    class="self-stretch flex flex-col items-start justify-start"
+                >
+                  <div
+                      class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                  >
+                    20 - 02 - 2021
+                  </div>
+                </div>
+                <div
+                    class="self-stretch relative lg:text-lg leading-[150%] text-darkslategray-200 text-justify text-sm"
+                >
+                  Đỉnh cao là một tay tán gái chuyên nghiệp anh thành công hạ
+                  gục và đưa hai con tim xích vào một mốc đánh dấu khởi đầu của
+                  một mối nhân duyên.
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div
-          class="relative bg-lightgray w-0.5 h-[627px] overflow-hidden shrink-0"
+            class="self-stretch flex flex-row items-center justify-center gap-[32px]"
         >
           <div
-            class="absolute top-[calc(50%_-_4.5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
-          />
-        </div>
-        <div
-          class="relative text-lg tracking-[0.02em] leading-[150%] uppercase text-darkslategray-200 inline-block w-[464px] shrink-0"
-        >
-          Chúng Ta Là Của Nhau
-        </div>
-      </div>
-      <div
-        class="w-[994px] flex flex-row items-center justify-between text-right"
-      >
-        <div
-          class="relative tracking-[0.02em] leading-[150%] uppercase inline-block w-[464px] shrink-0"
-        >
-          CẦU HÔN
-        </div>
-        <div
-          class="relative bg-lightgray w-0.5 h-[560px] overflow-hidden shrink-0"
-        >
-          <div
-            class="absolute top-[calc(50%_-_5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
-          />
-        </div>
-        <div
-          class="w-[464px] flex flex-col items-start justify-start gap-[32px] text-left text-sm text-sienna"
-        >
-          <img
-            class="relative w-[464px] h-[296px] object-cover [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0]"
-            alt=""
-            src="/story_4.jpg"
-            data-animate-on-scroll
-          />
-          <div
-            class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+              class="self-stretch bg-lightgray w-0.5 overflow-hidden shrink-0 lg:hidden flex-row items-center justify-center py-[315px] px-0 box-border flex"
           >
-            <div class="self-stretch flex flex-col items-start justify-start">
+            <div class="relative bg-darkslategray-100 w-0.5 h-4"/>
+          </div>
+          <div
+              data-animate-on-scroll
+              class="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-9 gap-[32px] md:items-end md:justify-start [&.animate]:animate-[0.5s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
+          >
+            <img
+                class="self-stretch relative max-w-full overflow-hidden h-[296px] shrink-0 object-cover"
+                alt=""
+                src="/story_3.jpg"
+            />
+            <div
+                class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+            >
+              <div class="self-stretch flex flex-col items-start justify-start">
+                <div
+                    class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                >
+                  MỘT NĂM TÁM THÁNG
+                </div>
+              </div>
               <div
-                class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                  class="self-stretch relative leading-[150%] text-darkslategray-200 text-justify lg:text-lg text-sm"
               >
-                01 - 04 - 2023
+                <p class="[margin-block-start:0] [margin-block-end:16px]">
+                  Vì sao anh chọn em! Sắc đẹp là một điểm quan trọng khi ta chọn
+                  yêu ai và kinh tế là yếu tố để ta lựa lấy ai. Nhưng với anh nó
+                  không phải sự hào nhoáng đến từ bên ngoài mà xuất phát từ tính
+                  cách sự cần mẫn, kiên trì. Là những hành động quan tâm yêu
+                  thương chăm lo gia đình. Đấy mới là yếu tố để xây dựng một gia
+                  đình hạnh phúc.
+                </p>
+                <p class="m-0">
+                  Dù ai chê này chê kia <br/>
+                  Nhưng lòng này vững bên mình EM thôi <br/>
+                  Và niềm tin đó đã đưa ta tới ngày quyết định dưới đây.
+                </p>
               </div>
             </div>
+          </div>
+          <div
+              class="self-stretch relative bg-lightgray w-0.5 overflow-hidden shrink-0 hidden lg:inline-block"
+          >
             <div
-              class="self-stretch relative text-lg leading-[150%] text-darkslategray-200 whitespace-pre-wrap text-justify"
+                class="absolute top-[calc(50%_-_4.5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
+            />
+          </div>
+          <div
+              class="relative text-lg tracking-[0.02em] leading-[150%] uppercase text-darkslategray-200 w-[464px] shrink-0 hidden lg:inline-block"
+          >
+            CHÚNG TA LÀ CỦA NHAU
+          </div>
+        </div>
+        <div
+            class="self-stretch flex flex-row items-center justify-center gap-[32px] text-right text-lg text-darkslategray-200 md:items-center md:justify-center"
+        >
+          <div
+              class="relative tracking-[0.02em] leading-[150%] uppercase w-[464px] shrink-0 hidden lg:inline-block"
+          >
+            CẦU HÔN
+          </div>
+          <div
+              class="self-stretch bg-lightgray w-0.5 overflow-hidden shrink-0 flex flex-row items-center justify-center"
+          >
+            <div class="relative bg-darkslategray-100 w-0.5 h-4"/>
+          </div>
+          <div
+              class="flex-1 flex flex-col items-center justify-center [&.animate]:animate-[0.5s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] text-left text-sm text-sienna"
+              data-animate-on-scroll
+          >
+            <div
+                class="self-stretch flex flex-col items-center justify-center py-9 px-0 gap-[32px]"
             >
-              <p class="m-0">
-                Với thế giới đây là ngày lừa dối. Nhưng với anh đó là ngày mà
-                anh đã dành sư chân thành của mình để đổi lại một con đường hạnh
-                phúc. Anh hỏi em rằng “Em tin ai có thể làm cho em hạnh phúc!”
-              </p>
-              <p class="m-0">
-                <span> </span>
-                <i>Nhấc tay anh khẽ run</i>
-              </p>
-              <p class="m-0">
-                <i> Thì thầm em nói nhỏ</i>
-              </p>
-              <p class="m-0">
-                <i> Chính là anh chứ ai</i>
-              </p>
+              <img
+                  class="self-stretch relative max-w-full overflow-hidden h-[296px] shrink-0 object-cover"
+                  alt=""
+                  src="/story_4.jpg"
+              />
+              <div
+                  class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+              >
+                <div
+                    class="self-stretch flex flex-col items-start justify-start"
+                >
+                  <div
+                      class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                  >
+                    01 - 04 - 2023
+                  </div>
+                </div>
+                <div
+                    class="self-stretch relative lg:text-lg leading-[150%] text-darkslategray-200 text-justify text-sm"
+                >
+                  <p class="[margin-block-start:0] [margin-block-end:16px]">
+                    Với thế giới đây là ngày lừa dối. Nhưng với anh đó là ngày mà
+                    anh đã dành sư chân thành của mình để đổi lại một con đường hạnh
+                    phúc. Anh hỏi em rằng “Em tin ai có thể làm cho em hạnh phúc!”
+                  </p>
+                  <p class="m-0">
+                    <i>Nhấc tay anh khẽ run</i>
+                  </p>
+                  <p class="m-0">
+                    <i> Thì thầm em nói nhỏ</i>
+                  </p>
+                  <p class="m-0">
+                    <i> Chính là anh chứ ai</i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+            class="self-stretch flex flex-row items-center justify-center gap-[32px]"
+        >
+          <div
+              class="self-stretch bg-lightgray w-0.5 overflow-hidden shrink-0 lg:hidden flex-row items-center justify-center py-[315px] px-0 box-border flex"
+          >
+            <div class="relative bg-darkslategray-100 w-0.5 h-4"/>
+          </div>
+          <div
+              data-animate-on-scroll
+              class="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-9 gap-[32px] md:items-end md:justify-start [&.animate]:animate-[0.5s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0]"
+          >
+            <img
+                class="self-stretch relative max-w-full overflow-hidden h-[296px] shrink-0 object-cover"
+                alt=""
+                src="/story_5.jpg"
+            />
+            <div
+                class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+            >
+              <div class="self-stretch flex flex-col items-start justify-start">
+                <div
+                    class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                >
+                  13 - 08 - 2023
+                </div>
+              </div>
+              <div
+                  class="self-stretch relative leading-[150%] text-darkslategray-200 text-justify lg:text-lg text-sm"
+              >
+                <p class="[margin-block-start:0] [margin-block-end:16px]">
+                  Một mối nhân duyên như đã được ấn định từ trước anh và em cuối cùng chúng ta cũng đã có thể chính thức
+                  được bước ra trước sự chứng kiến của gia đình ai bên và đi tới timeline của cuộc đời.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+              class="self-stretch relative bg-lightgray w-0.5 overflow-hidden shrink-0 hidden lg:inline-block"
+          >
+            <div
+                class="absolute top-[calc(50%_-_4.5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
+            />
+          </div>
+          <div
+              class="relative text-lg tracking-[0.02em] leading-[150%] uppercase text-darkslategray-200 w-[464px] shrink-0 hidden lg:inline-block"
+          >
+            DẠM nGÕ
+          </div>
+        </div>
+        <div
+            class="self-stretch flex flex-row items-center justify-center gap-[32px] text-right text-lg text-darkslategray-200 md:items-center md:justify-center"
+        >
+          <div
+              class="relative tracking-[0.02em] leading-[150%] uppercase w-[464px] shrink-0 hidden lg:inline-block"
+          >
+            KẾT HÔN
+          </div>
+          <div
+              class="self-stretch bg-lightgray w-0.5 overflow-hidden shrink-0 flex flex-row items-center justify-center"
+          >
+            <div class="relative bg-darkslategray-100 w-0.5 h-4"/>
+          </div>
+          <div
+              class="flex-1 flex flex-col items-center justify-center [&.animate]:animate-[0.5s_ease_0s_1_normal_forwards_slide-in-right] opacity-[0] text-left text-sm text-sienna"
+              data-animate-on-scroll
+          >
+            <div
+                class="self-stretch flex flex-col items-center justify-center py-9 px-0 gap-[32px]"
+            >
+              <img
+                  class="self-stretch relative max-w-full overflow-hidden h-[296px] shrink-0 object-cover"
+                  alt=""
+                  src="/story_6.jpg"
+              />
+              <div
+                  class="self-stretch flex flex-col items-start justify-start gap-[8px]"
+              >
+                <div
+                    class="self-stretch flex flex-col items-start justify-start"
+                >
+                  <div
+                      class="self-stretch relative tracking-[3px] leading-[150%] uppercase font-medium"
+                  >
+                    21 - 11 - 2023
+                  </div>
+                </div>
+                <div
+                    class="self-stretch relative lg:text-lg leading-[150%] text-darkslategray-200 text-justify text-sm"
+                >
+                  <p class="[margin-block-start:0] [margin-block-end:16px]">
+                    Cuối cùng hai bên gia đình đã thống nhất chọn ngày 21 tháng 11 năm 2023 (tức 09 tháng 10 năm Qúy
+                    Mão) là ngày tổ chức lễ ăn hỏi và thành hôn cho cặp vợ chồng trẻ.
+                  </p>
+                  <p class="m-0">
+                    Mời mọi người cùng chìm đắm vào khoảnh khắc yêu thương này nhé.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-[994px] flex flex-row items-center justify-between">
-        <CardTimeline
-          image="/story_5.jpg"
-          prop="13 - 08 - 2023"
-          nhCaoLMtTayTnGiChuyn="   Một mối nhân duyên như đã được ấn định từ trước anh và em cuối cùng chúng ta cũng đã có thể chính thức được bước ra trước sự chứng kiến của gia đình ai bên và đi tới timeline của cuộc đời."
-        />
-        <div
-          class="relative bg-lightgray w-0.5 h-[560px] overflow-hidden shrink-0"
-        >
-          <div
-            class="absolute top-[calc(50%_-_5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
-          />
-        </div>
-        <div
-          class="relative tracking-[0.02em] leading-[150%] uppercase inline-block w-[464px] shrink-0"
-        >
-          dẠM nGÕ
-        </div>
-      </div>
-      <div
-        class="w-[994px] flex flex-row items-center justify-between text-right"
-      >
-        <div
-          class="relative tracking-[0.02em] leading-[150%] uppercase inline-block w-[464px] shrink-0"
-        >
-          kẾT HÔN
-        </div>
-        <div
-          class="relative bg-lightgray w-0.5 h-[560px] overflow-hidden shrink-0"
-        >
-          <div
-            class="absolute top-[calc(50%_-_5px)] left-[0px] bg-darkslategray-100 w-0.5 h-4"
-          />
-        </div>
-        <CardTimeline1
-          imageDescription="/story_6.jpg"
-          dateDescription="21 - 11 - 2023"
-          playfulGazeImageUrl="    Cuối cùng hai bên gia đình đã thống nhất chọn ngày 21 tháng 11 năm 2023 (tức 09 tháng 10 năm Qúy Mão) là ngày tổ chức lễ ăn hỏi và thành hôn cho cặp vợ chồng trẻ."
-          teaDescription="    Mời mọi người cùng chìm đắm vào khoảnh khắc yêu thương này nhé."
-        />
-      </div>
-    </div>
-    <div>
-
     </div>
   </div>
 </template>
 <script>
-  import { defineComponent } from "vue";
-  import CardTimeline1 from "./CardTimeline1.vue";
-  import CardTimeline from "./CardTimeline.vue";
+import {defineComponent} from "vue";
+import CardTimeline1 from "./CardTimeline1.vue";
+import CardTimeline from "./CardTimeline.vue";
 
-  export default defineComponent({
-    name: "Container",
-    data() {
-      return { observer: null };
-    },
+export default defineComponent({
+  name: "Container",
+  data() {
+    return {observer: null};
+  },
 
-    mounted() {
-      const scrollAnimElements = document.querySelectorAll(
+  mounted() {
+    const scrollAnimElements = document.querySelectorAll(
         "[data-animate-on-scroll]"
-      );
-      this.observer = new IntersectionObserver(
+    );
+    this.observer = new IntersectionObserver(
         (entries) => {
           for (const entry of entries) {
             if (entry.isIntersecting || entry.intersectionRatio > 0) {
@@ -238,15 +369,15 @@
         {
           threshold: 0.15,
         }
-      );
+    );
 
-      for (let i = 0; i < scrollAnimElements.length; i++) {
-        this.observer.observe(scrollAnimElements[i]);
-      }
-    },
-    beforeUnmount() {
-      this.observer.disconnect();
-    },
-    components: { CardTimeline1, CardTimeline },
-  });
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      this.observer.observe(scrollAnimElements[i]);
+    }
+  },
+  beforeUnmount() {
+    this.observer.disconnect();
+  },
+  components: {CardTimeline1, CardTimeline},
+});
 </script>

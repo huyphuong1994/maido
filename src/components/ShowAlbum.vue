@@ -15,7 +15,7 @@ export default {
 
 <template>
 
-  <div class="w-[900px] h-[100vh - 400px]">
+  <div class="w-screen h-screen lg:w-[900px] lg:h-[100vh - 400px]">
     <carousel>
       <slide v-for="slide in 10" :key="slide">
         <div class="carousel__item">
@@ -23,7 +23,7 @@ export default {
         </div>
       </slide>
 
-      <template #addons>
+      <template #addons class="hidden lg:block">
         <navigation/>
         <pagination/>
       </template>

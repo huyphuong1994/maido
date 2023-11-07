@@ -15,7 +15,7 @@
         <div class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover bg-time-place"></div>
       </div>
       <div
-          class="my-0 mx-[!important] absolute top-[154px] left-[120px] flex flex-col items-start justify-start gap-[96px] z-[1]"
+          class="my-0 mx-[!important] absolute top-[154px] lg:left-[120px] left-[35px] flex flex-col items-start justify-start gap-[96px] z-[1]"
       >
         <div class="relative leading-[120%] text-[42px] md:text-[56px] lg:text-[72px]">Time and place</div>
         <div

@@ -130,6 +130,10 @@ export default defineComponent({
     openBoxAlbum() {
       this.isBoxGiftOpen = true;
     },
+
+    closeBoxGift() {
+      this.isBoxGiftOpen = false;
+    }
   },
 
   beforeUnmount() {

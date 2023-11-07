@@ -4,16 +4,21 @@
   >
     <div class="relative bg-silver w-full h-[872px] z-[0]">
       <img
-        class="absolute h-[122.42%] w-full top-[0%] right-[0%] bottom-[-22.42%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
+        class="hidden lg:block absolute h-[122.42%] w-full top-[0%] right-[0%] bottom-[-22.42%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src="/image-3@2x.jpg"
+      />
+      <img
+          class="block lg:hidden absolute h-[122.42%] w-full top-[0%] right-[0%] bottom-[-22.42%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
+          alt=""
+          src="/image-3@2x-mobile.jpg"
       />
     </div>
     <div
       class="my-0 mx-[!important] absolute top-[798px] left-[120px] lg:w-[1200px] z-[1]"
     />
     <div
-      class="my-0 mx-[!important] w-full absolute top-[268px] flex flex-col items-center justify-start gap-[16px] z-[2]"
+      class="my-0 mx-[!important] w-full absolute top-[500px] lg:top-[268px] flex flex-col items-center justify-start gap-[16px] z-[2]"
     >
       <div
         class="relative tracking-[0.02em] leading-[150%] uppercase [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"

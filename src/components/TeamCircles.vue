@@ -1,12 +1,12 @@
 <template>
   <div
-    class="relative rounded-xl bg-white lg:w-[1200px] h-[662px] overflow-hidden flex flex-col items-center justify-start pt-8 px-6 pb-16 box-border max-w-full max-h-full text-center text-[32px] text-[rgb(150,106,61]) font-inter"
+    class="overflow-y-auto relative rounded-xl bg-white lg:w-[1200px] h-[662px] overflow-hidden flex flex-col items-center justify-start pt-8 px-6 pb-16 box-border max-w-full max-h-full text-center text-[32px] text-[rgb(150,106,61]) font-inter"
   >
     <div
-      class="w-[1169px] h-[658px] flex flex-col items-center justify-start gap-[64px]"
+      class="w-full h-[658px] flex flex-col items-center justify-start gap-[64px]"
     >
       <div
-        class="w-[530px] flex flex-col items-center justify-start gap-[16px] text-[rgb(150,106,61)"
+        class="w-full flex flex-col items-center justify-start gap-[16px] text-[rgb(150,106,61)"
       >
         <b class="self-stretch relative leading-[120%] text-[rgb(150,106,61)]">Hộp mừng cưới</b>
         <div class="self-stretch relative text-base leading-[150%]">
@@ -15,9 +15,7 @@
           </p>
         </div>
       </div>
-      <div
-        class="self-stretch flex flex-row items-start justify-center gap-[48px] text-xl"
-      >
+      <div class="self-stretch lg:flex flex-row items-start justify-center gap-[48px] text-xl">
         <div class="flex-1 flex flex-col items-center justify-start gap-[24px]">
           <div
             class="w-[270px] h-[270px] flex flex-row items-center justify-center"
@@ -45,7 +43,7 @@
             </div>
           </div>
         </div>
-        <div class="flex-1 flex flex-col items-center justify-start gap-[24px]">
+        <div class="my-24 lg:my-0 flex-1 flex flex-col items-center justify-start gap-[24px]">
           <div
             class="w-[270px] h-[270px] flex flex-row items-center justify-center"
           >

@@ -8,10 +8,10 @@
         <div class="self-stretch relative text-[42px] md:text-[56px] lg:text-[72px]">Ngọc Độ & Ngọc Mai</div>
       </div>
       <div
-          class="self-stretch flex flex-row items-center justify-start gap-[56px] text-center text-sienna"
+          class="self-stretch flex flex-row items-center justify-start gap-[36px] lg:gap-[56px] text-center text-sienna"
       >
-        <div class="flex flex-col items-center justify-start">
-          <div class="relative uppercase inline-block w-20 text-[42px] md:text-[56px] lg:text-[72px]">
+        <div class="flex flex-col items-center justify-center">
+          <div class="relative uppercase inline-block text-[36px] md:text-[56px] lg:text-[72px]">
             {{ days }}
           </div>
           <div
@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-start">
-          <div class="relative uppercase text-[42px] md:text-[56px] lg:text-[72px]">{{hours}}</div>
+          <div class="relative uppercase text-[36px] md:text-[56px] lg:text-[72px]">{{hours}}</div>
           <div
               class="relative text-xl leading-[150%] uppercase font-inter text-dimgray"
           >
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-start">
-          <div class="relative uppercase text-[42px] md:text-[56px] lg:text-[72px]">{{minutes}}</div>
+          <div class="relative uppercase text-[36px] md:text-[56px] lg:text-[72px]">{{minutes}}</div>
           <div
               class="relative text-xl leading-[150%] uppercase font-inter text-dimgray"
           >
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-start">
-          <div class="relative uppercase text-[42px] md:text-[56px] lg:text-[72px]">{{seconds}}</div>
+          <div class="relative uppercase text-[36px] md:text-[56px] lg:text-[72px]">{{seconds}}</div>
           <div
               class="relative text-xl uppercase font-inter text-dimgray"
           >

@@ -6,7 +6,7 @@
       <Navbar />
       <HeroBanner />
       <div
-        class="overflow-x-auto flex flex-col items-center justify-start py-40 px-0 box-border gap-[200px]"
+        class="overflow-x-auto flex flex-col items-center justify-start px-0 box-border gap-[200px]"
       >
         <Container1 /><Container />
       </div>
