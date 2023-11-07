@@ -8,7 +8,7 @@
         <div class="self-stretch relative text-[42px] md:text-[56px] lg:text-[72px]">Ngọc Độ & Ngọc Mai</div>
       </div>
       <div
-          class="self-stretch flex flex-row items-center justify-start gap-[36px] lg:gap-[56px] text-center text-sienna"
+          class="self-stretch flex flex-row items-center lg:justify-start gap-[36px] lg:gap-[56px] text-center text-sienna justify-center"
       >
         <div class="flex flex-col items-center justify-center">
           <div class="relative uppercase inline-block text-[36px] md:text-[56px] lg:text-[72px]">
