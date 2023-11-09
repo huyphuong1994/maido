@@ -21,13 +21,13 @@
       class="my-0 mx-[!important] w-full absolute top-[500px] lg:top-[268px] flex flex-col items-center justify-start gap-[16px] z-[2]"
     >
       <div
-        class="relative tracking-[0.02em] leading-[150%] uppercase [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
+        class="text-[16px] lg:text-[24px] relative tracking-[0.02em] leading-[150%] uppercase [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"
         data-animate-on-scroll
       >
         My Love For You Is a Journey
       </div>
       <div
-        class="relative lg:text-85xl text-53xl leading-[120%] uppercase font-butler text-white [&.animate]:animate-[1.5s_ease_1s_1_normal_forwards_slide-in-top] opacity-[0]"
+        class="relative lg:text-85xl text-[38px] leading-[120%] uppercase font-butler text-white [&.animate]:animate-[1.5s_ease_1s_1_normal_forwards_slide-in-top] opacity-[0]"
         data-animate-on-scroll
       >
         We're Married

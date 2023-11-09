@@ -52,20 +52,20 @@
       </div>
     </div>
     <div class="lg:hidden w-full">
-      <div class="w-full flex justify-between bg-[rgb(150,106,61)]">
-        <div class="p-5 flex items-center">
+      <div class="w-full grid grid-cols-5 gap-2 bg-[rgb(150,106,61)] py-2.5">
+        <div class="flex items-center justify-center text-center">
           <div class="relative leading-[150%]" :onClick="onNavbarLinkContainerClick">Couple</div>
         </div>
-        <div class="p-5 flex items-center">
+        <div class="flex items-center justify-center text-center">
           <div class="relative leading-[150%]" :onClick="onNavbarLinkContainer1Click">Love Story</div>
         </div>
-        <div class="p-5 flex items-center">
+        <div class="flex items-center justify-center text-center">
           <div class="relative leading-[150%]" :onClick="onNavbarLinkContainer2Click">Time place</div>
         </div>
-        <div class="p-5 flex items-center">
+        <div class="flex items-center justify-center text-center">
           <div class="relative leading-[150%]" :onClick="onNavbarLinkContainer4Click">Album</div>
         </div>
-        <div class="p-5 flex items-center">
+        <div class="flex items-center justify-center text-center">
           <div class="relative leading-[150%]" :onClick="openBoxGift">Gift</div>
         </div>
       </div>
