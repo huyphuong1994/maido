@@ -1,7 +1,7 @@
 <template>
   <div
       data-scroll-to="container"
-      class="relative w-full overflow-x-auto flex flex-col items-center justify-start pb-40 px-0 box-border text-left text-[72px] text-darkslategray-200 font-butler"
+      class="relative w-full overflow-x-auto flex flex-col items-center justify-start lg:pb-40 pb-16 px-0 box-border text-left text-[72px] text-darkslategray-200 font-butler"
   >
     <div
         class="w-full flex flex-col items-center justify-start gap-[48px] max-w-[1200px] pl-12 pr-12 lg:pl-0 lg:pr-0 box-border"

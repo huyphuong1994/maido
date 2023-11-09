@@ -1,101 +1,117 @@
 <template>
   <div
-      class="w-full flex flex-row items-start justify-center pt-40 px-0 pb-[200px] box-border text-left text-53xl text-darkslategray-200 font-butler"
-      data-scroll-to="albumContainer"
+      class="w-full flex flex-row items-start justify-center pt-40 px-0 pb-[200px] box-border text-left text-[72px] text-darkslategray font-butler"
   >
-    <div class="flex flex-col items-start justify-start gap-[80px]">
-      <div class="lg:w-[1200px] flex flex-row items-start justify-between w-full">
-        <div class="lg:flex lg:flex-col lg:items-start items-center text-center justify-start gap-[24px] w-full">
-          <div class="relative leading-[120%] w-full text-[42px] md:text-[56px] lg:text-[72px] lg:text-start">Captured
-            Moments
+    <div class="flex-1 flex flex-col items-center justify-center gap-[80px]">
+      <div
+          class=" max-w-[1200px]  lg:flex lg:flex-row lg:items-start lg:justify-start gap-[133px] flex-col items-center justify-center"
+      >
+        <div
+            class="flex flex-col items-start justify-start gap-[24px] md:self-stretch md:w-full"
+        >
+          <div
+              class="relative leading-[120%] md:text-[56px] md:text-center text-[42px] text-center w-full"
+          >
+            Captured Moments
           </div>
           <div
-              class="lg:flex lg:flex-row lg:items-center justify-start gap-[8px] text-lg font-inter"
+              class="lg:flex flex-row items-center justify-start gap-[8px] text-[14px] font-inter hidden lg:text-[18px]"
           >
-            <div class="hidden lg:flex relative leading-[120%] cursor-pointer">View collections</div>
+            <div class="relative leading-[120%]">View collections</div>
             <img
-                class="hidden lg:flex relative w-6 h-6 overflow-hidden shrink-0"
+                class="relative w-6 h-6 overflow-hidden shrink-0"
                 alt=""
                 src="/arrow-outward-fill0-wght400-grad0-opsz24-1.svg"
             />
           </div>
         </div>
         <div
-            class="hidden lg:flex flex-col items-start justify-end pt-[120px] px-0 pb-0 text-xl font-inter"
+            class="px-5 flex flex-col items-start justify-end pt-[120px] lg:px-0 pb-0 text-[20px] font-inter md:self-stretch md:w-auto md:pl-6 md:pr-6 md:box-border"
         >
-          <div class="flex flex-row items-center justify-start">
+          <div
+              class="flex flex-col items-center justify-start md:self-stretch md:w-auto"
+          >
             <div
-                class="relative leading-[150%] inline-block lg:w-[481px] shrink-0"
+                class="text-[16px] lg:text-[18px] relative leading-[150%] inline-block w-full md:self-stretch md:w-auto"
             >
-              You may only be one person to the world but you may be the world to one person.
+              Live your magic and save your precious love memories! our team of
+              professional photographers is here to help you
             </div>
           </div>
         </div>
       </div>
       <div
-          class="w-full text-center lg:w-[1200px] lg:flex lg:flex-row lg:flex-wrap items-start justify-start lg:gap-[32px]">
+          class="mx-auto max-w-[1200px] self-stretch flex lg:flex-row flex-wrap items-start lg:justify-center gap-[32px] text-center text-[48px] text-maroon font-inter flex-col :items-center justify-center"
+      >
         <img
-            class="relative w-[90%] lg:w-[378px] lg:h-[500px] [&.animate]:animate-[1s_ease_0.2s_1_normal_forwards_slide-in-left] opacity-[0] object-cover"
+            class="relative w-[378px] h-[530px] object-cover [&.animate]:animate-[1s_ease_0.2s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
             src="/album_1.jpg"
             data-animate-on-scroll
         />
         <img
-            class="relative w-[90%] lg:w-[378px] lg:h-[500px] [&.animate]:animate-[1s_ease_0.4s_1_normal_forwards_slide-in-left] opacity-[0] object-cover"
+            class="relative w-[379px] h-[530px] object-cover [&.animate]:animate-[1s_ease_0.4s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
             src="/album_2.jpg"
             data-animate-on-scroll
         />
         <img
-            class="relative w-[90%] lg:w-[378px] lg:h-[500px] [&.animate]:animate-[1s_ease_0.6s_1_normal_forwards_slide-in-left] opacity-[0] object-cover"
+            class="relative w-[379px] h-[530px] object-cover [&.animate]:animate-[1s_ease_0.6s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
             src="/album_3.jpg"
             data-animate-on-scroll
         />
         <img
-            class="relative w-[90%] lg:w-[378px] lg:h-[500px] [&.animate]:animate-[1s_ease_0.8s_1_normal_forwards_slide-in-left] opacity-[0] object-cover"
+            class="relative w-[379px] h-[530px] object-cover [&.animate]:animate-[1s_ease_0.8s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
             src="/album_4.jpg"
             data-animate-on-scroll
         />
         <img
-            class="relative w-[90%] lg:w-[378px] lg:h-[500px] [&.animate]:animate-[1s_ease_1s_1_normal_forwards_slide-in-left] opacity-[0] object-cover"
+            class="relative w-[378px] h-[530px] object-cover [&.animate]:animate-[1s_ease_1s_1_normal_forwards_slide-in-left] opacity-[0]"
             alt=""
             src="/album_5.jpg"
             data-animate-on-scroll
         />
-        <div class="relative after:content-['+9'] album-last" @click="openBoxAlbum()">
+        <div
+            class="relative w-[379px] h-[530px] [&.animate]:animate-[1s_ease_1.2s_1_normal_forwards_slide-in-left] opacity-[0] cursor-pointer"
+            :onClick="openFramePopup"
+            data-animate-on-scroll
+        >
           <img
-              class="relative w-[90%] lg:w-[378px] lg:h-[500px] [&.animate]:animate-[1s_ease_1.2s_1_normal_forwards_slide-in-left] opacity-[0] object-cover cursor-pointer"
+              class="absolute top-[0px] left-[0px] w-[379px] h-[530px] object-cover"
               alt=""
               src="/album_6.jpg"
-              data-animate-on-scroll
           />
+          <div
+              class="absolute top-[265px] left-[158px] flex items-center justify-center w-[62px] h-[68.8px] text-[#8C1414]"
+          >
+            +9
+          </div>
         </div>
       </div>
     </div>
-    <div v-if="isBoxGiftOpen">
-      <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.8)"
-          placement="Centered"
-          :relativeLayerRef="$refs[navbarLinkContainer5Ref]"
-          :onOutsideClick="closeBoxGift"
-      >
-        <ShowAlbum :onClose="closeBoxGift" />
-      </PortalPopup>
-    </div>
+  </div>
+  <div v-if="isFramePopupOpen">
+    <PortalPopup
+        overlayColor="rgba(113, 113, 113, 0.6)"
+        placement="Centered"
+        :relativeLayerRef="$refs[groupContainerRef]"
+        :onOutsideClick="closeFramePopup"
+    >
+      <FrameComponent :onClose="closeFramePopup" />
+    </PortalPopup>
   </div>
 </template>
 <script>
 import {defineComponent} from "vue";
-import PortalPopup from "./PortalPopup.vue";
-import ShowAlbum from "./ShowAlbum.vue";
+import FrameComponent from "../components/FrameComponent.vue";
+import PortalPopup from "../components/PortalPopup.vue";
 
 export default defineComponent({
   name: "SectionAlbum",
-  components: {ShowAlbum, PortalPopup},
   data() {
-    return {observer: null, isBoxGiftOpen: false};
+    return {isFramePopupOpen: false, observer: null};
   },
 
   mounted() {
@@ -121,23 +137,17 @@ export default defineComponent({
       this.observer.observe(scrollAnimElements[i]);
     }
   },
-
-  methods: {
-    renderDelay(key) {
-      return "w-[378px] h-[500px] object-cover animate__animated animate__backInLeft animate__delay-" + (key * 250) + "ms"
-    },
-
-    openBoxAlbum() {
-      this.isBoxGiftOpen = true;
-    },
-
-    closeBoxGift() {
-      this.isBoxGiftOpen = false;
-    }
-  },
-
   beforeUnmount() {
     this.observer.disconnect();
+  },
+  components: {FrameComponent, PortalPopup},
+  methods: {
+    openFramePopup() {
+      this.isFramePopupOpen = true;
+    },
+    closeFramePopup() {
+      this.isFramePopupOpen = false;
+    },
   },
 });
 </script>

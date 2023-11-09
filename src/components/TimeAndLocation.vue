@@ -49,12 +49,12 @@
             <div class="self-stretch relative leading-[150%] text-[16px] lg:text-[24px]">
               Số 6, Đường Hoàng Diệu, Phường Phương Lâm, TP.Hòa Bình, T.Hòa Bình
             </div>
-          </div>
-          <div
-              class="bg-white w-[221px] overflow-hidden flex flex-row items-center justify-center p-4 box-border text-base text-gray-100"
-          >
-            <a target="_blank" href="https://www.google.com/maps/place/%C3%81o+C%C6%B0%E1%BB%9Bi+Ph%C6%B0%C6%A1ng+Anh/@20.8170651,105.3358188,17z/data=!3m1!4b1!4m6!3m5!1s0x31346b73513b5403:0xedbf371eaeaf9807!8m2!3d20.8170651!4d105.3358188!16s%2Fg%2F1hc102544?hl=vi-VN&entry=ttu"
-               class="relative tracking-[1px] leading-[150%]">View map</a>
+            <div
+                class="bg-white w-[221px] overflow-hidden flex flex-row items-center justify-center p-4 box-border text-base text-gray-100"
+            >
+              <a target="_blank" href="https://www.google.com/maps/place/%C3%81o+C%C6%B0%E1%BB%9Bi+Ph%C6%B0%C6%A1ng+Anh/@20.8170651,105.3358188,17z/data=!3m1!4b1!4m6!3m5!1s0x31346b73513b5403:0xedbf371eaeaf9807!8m2!3d20.8170651!4d105.3358188!16s%2Fg%2F1hc102544?hl=vi-VN&entry=ttu"
+                 class="relative tracking-[1px] leading-[150%]">View map</a>
+            </div>
           </div>
         </div>
       </div>
