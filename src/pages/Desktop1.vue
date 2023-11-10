@@ -30,15 +30,7 @@
           </div>
         </div>
       </div>
-      <div id="cata-page-music" class="fixed bottom-2.5 left-2.5">
-        <button type="button" class="hidden sm:block lg:hidden xl:block rounded-full shadow cursor-pointer" aria-label="Next">
-          <img class="w-10 h-10" src="/not_nhac.png" alt=""/>
-        </button>
-        <div class="hidden">
-          <iframe id="sc-widget" width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay"
-                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1556049148&color=%23ff5500&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
-        </div>
-      </div>
+        <playlist/>
     </div>
   </div>
 </template>
@@ -52,10 +44,12 @@ import Section2 from "../components/TimeAndLocation.vue";
 import Section1 from "../components/Wishes.vue";
 import Section from "../components/Album.vue";
 import SectionAlbum from "../components/Album.vue";
+import Playlist from "../components/Playlist.vue";
 
 export default defineComponent({
   name: "Desktop1",
   components: {
+    Playlist,
     SectionAlbum,
     Navbar,
     HeroBanner,
@@ -65,5 +59,12 @@ export default defineComponent({
     Section1,
     Section,
   },
+  data() {
+    return {
+      playList: [
+        "1", "2", "3"
+      ]
+    }
+  }
 });
 </script>

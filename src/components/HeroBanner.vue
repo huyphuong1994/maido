@@ -18,7 +18,7 @@
       class="my-0 mx-[!important] absolute top-[798px] left-[120px] lg:w-[1200px] z-[1]"
     />
     <div
-      class="my-0 mx-[!important] w-full absolute top-[270px] lg:top-[268px] flex flex-col items-center justify-start gap-[16px] z-[2]"
+      class="my-0 mx-[!important] w-full absolute top-[300px] lg:top-[268px] flex flex-col items-center justify-start gap-[16px] z-[2]"
     >
       <div
         class="text-[16px] lg:text-[24px] relative tracking-[0.02em] leading-[150%] uppercase [&.animate]:animate-[1s_ease_0s_1_normal_forwards_slide-in-top] opacity-[0]"

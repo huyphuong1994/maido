@@ -95,3 +95,16 @@ body {
   transition-delay: 2s;
   transition-property: block;
 }
+
+svg {
+  transform: none;
+}
+
+.width-play {
+  transition: width 1s;
+}
+
+.width-pause {
+  width: 100%;
+  transition: width 1s;
+}
