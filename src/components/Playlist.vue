@@ -18,32 +18,32 @@ export default {
         {
           title: "Service Bell",
           artist: "Daniel Simion",
-          url: "https://maido.vercal.com/audio/audio_1.mp3",
+          url: "https://maido.vercel.app/audio/audio_1.mp3",
         },
         {
           title: "Meadowlark",
           artist: "Daniel Simion",
-          url: "https://maido.vercal.com/audio/audio_2.mp3",
+          url: "https://maido.vercel.app/audio/audio_2.mp3",
         },
         {
           title: "Hyena Laughing",
           artist: "Daniel Simion",
-          url: "https://maido.vercal.com/audio/audio_3.mp3",
+          url: "https://maido.vercel.app/audio/audio_3.mp3",
         },
         {
           title: "Creepy Background",
           artist: "Daniel Simion",
-          url: "https://maido.vercal.com/audio/audio_4.mp3",
+          url: "https://maido.vercel.app/audio/audio_4.mp3",
         },
         {
           title: "Creepy Background",
           artist: "Daniel Simion",
-          url: "https://maido.vercal.com/audio/audio_5.mp3",
+          url: "https://maido.vercel.app/audio/audio_5.mp3",
         },
         {
           title: "Creepy Background",
           artist: "Daniel Simion",
-          url: "https://maido.vercal.com/audio/audio_6.mp3",
+          url: "https://maido.vercel.app/audio/audio_6.mp3",
         }
       ]
     }
